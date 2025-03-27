@@ -13,6 +13,7 @@ variable "tools" {
     #     volume_size= 25  
     #     create_dns= true 
     #     create_iam_role=true 
+    #     ami_id = "ami-053b941fb928e647f"
     # }
     # grunner_arm={
     #     instance_type="t4g.xlarge"  #c7g.xlarge(4/8)  t4g.xlarge(4/16)
@@ -21,6 +22,7 @@ variable "tools" {
     #     volume_size= 25 
     #     create_dns= true 
     #     create_iam_role=true 
+    #     ami_id = "ami-053b941fb928e647f"
     # }
     # grunner_x86={
     #     instance_type="c6i.xlarge"  #c6i.xlarge(4/8)   m6i.xlarge (4/16)
@@ -29,6 +31,7 @@ variable "tools" {
     #     volume_size= 25
     #     create_dns= true 
     #     create_iam_role=true 
+    #     ami_id = "ami-053b941fb928e647f"
     # }
     # test={
     #     instance_type="t4g.micro"  #c7g.medium(1/2) c7g.xlarge  t4g.xlarge  t4g.micro
@@ -37,6 +40,7 @@ variable "tools" {
     #     volume_size= 10  
     #     create_dns= true 
     #     create_iam_role=true 
+    #     ami_id = "ami-053b941fb928e647f"
     # }
       test_x86={
         instance_type="t3.small"  #intel
@@ -45,6 +49,7 @@ variable "tools" {
         volume_size= 10  
         create_dns= true 
         create_iam_role=true 
+        ami_id = "ami-0e86c549c4c958e98"
     }
     # vault={
     #     instance_type=""

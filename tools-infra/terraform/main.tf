@@ -12,5 +12,6 @@ module "infra" {
     aws_password        =   var.aws_password 
     domain-name         =   var.domain-name
     role_name           =   var.role_name 
+    ami_id              =   each.value["ami_id"]
 }
  

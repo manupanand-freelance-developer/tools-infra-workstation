@@ -20,7 +20,7 @@ variable "volume_size" {
   
 }
 variable "ami_id" {
-  default = "ami-053b941fb928e647f"
+
 }
 variable "aws_user" {
   
